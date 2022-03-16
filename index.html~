@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PombiliSoft</title>
+    <style>
+
+      html, body {
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden;
+          background: #ffffff;
+      }
+      
+      #A, #B, #C{
+          position: absolute;      
+          width: 50vw!important;
+          height: 70vh;          
+      }
+
+      #A{          
+          padding-left: 40px;
+          border: thin solid #e73ba1ff;
+      }
+      
+      #B{
+          top: 20vh;
+          left: 30vw;          
+          background: #ffffff;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          border: thin solid teal;
+          color: #e73ba1ff;
+          z-index: -1;
+      }
+
+      #B ul li{
+          list-style: none;
+          margin: 4px 0;
+      }
+
+      #C{          
+          border: thin solid #48c9b0;        
+          left: 48vw;
+          padding-top: 10px;
+          height: 25vh;
+          color: #222d31;
+          text-align: right;
+          top: 50vh;
+          padding: 10px;
+      }
+      #C ul li{
+          list-style: none;          
+      }
+
+      #C ul li a{
+          color: #e73ba1ff;
+	  font-weight: bolder;
+      }
+      .pink{
+          color: #e73ba1ff;
+      }
+
+      .white{
+          color: #222d31;
+      }
+      
+      h4{
+          font-weight: lighter;
+          color: teal;          
+      }
+
+      #email{
+          position: absolute;
+          top: 0;
+          color: #000000;
+          font-size: 1em;
+          border: thin dashed cyan;
+          padding-top: 40px;
+          top: 65vh;
+          left: 45vw;
+          
+      }
+    </style>
+  </head>
+  <body>
+    <div id="A"><h4><em>
+          P<br>
+          O<br>
+          M<br>
+          B<br>
+          I<br>
+          L<br>
+          I<br>
+          <span class="pink">⧉</span> <span class="white">Handcrafted</span><br>
+          S<br>
+          O<br>
+          F<br>
+          T<br>
+          W<br>
+          A<br>
+	  R<br>
+          E<br>	  
+        </em>
+      </h4>
+    </div>
+    <div id="B"></div>
+    <div id="C">
+      <ul>
+	<li>
+          <a href="">Web Design + Development</a>
+          : <em>From complex websites to the advanced stuff </em>
+        </li>
+	<li>
+          <a href="">Email Hosting</a>
+          : <em>Create a professional e-mail, under your own company domain</em>
+        </li>
+	<li>
+	<a href="">Cloud</a>
+        : <em>Affordable, Secure and fast Cloud</em>
+</li>
+      </ul>
+    </div>
+    <div id="email">
+      <em>info (at) pombilisoft (dot) com</em>
+      <br><br>
+      ⧉
+      <a class="pink" href="https://twitter.com/pombilisoft">|twitter|</a>
+    </div>
+  </body>
+</html>
